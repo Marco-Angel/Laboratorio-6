@@ -169,8 +169,12 @@ se agregó el código de tu app y se instalaron las dependencias del archivo req
 Luego se corre el contenedor con docker run --name mario-game -p 8501:8501 juego-mario-bros, exponiendo el puerto 8501 para poder acceder
 a la aplicación Streamlit desde tu navegador. Finalmente, Docker dejó listo el enlace para abrir la app: http://0.0.0.0:8501.
 
-#### 
+---
+
+#### Paso 5: Jugar
+
 <img width="800" height="723" alt="image" src="https://github.com/user-attachments/assets/d9f404f9-f6eb-4709-8ec4-2af5920e136d" />
+
 <img width="637" height="345" alt="image" src="https://github.com/user-attachments/assets/a09ff2b1-2648-4ad8-b39f-f37afc7a54ed" />
 <img width="1326" height="838" alt="image" src="https://github.com/user-attachments/assets/ff9c8eb8-ef13-4067-969e-041b78d4ee49" />
 
