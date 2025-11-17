@@ -124,3 +124,22 @@ de manera local a trav´es de Docker.
 <img width="600" height="601" alt="image" src="https://github.com/user-attachments/assets/109bf667-89da-45fc-835b-43cf2175dee6" />
 <img width="600" height="276" alt="image" src="https://github.com/user-attachments/assets/691a4f2d-066b-4a1c-8487-6ae14584947e" />
 <img width="832" height="309" alt="image" src="https://github.com/user-attachments/assets/d76832bf-6201-4dc6-b785-dff04f8fad9a" />
+
+---
+
+##  Segundo punto
+---
+### Paso 1: Creacion de archivos
+Como primero se creo un nuevo folder llamado **Juego-Mario-Bros**  en la imagense muestra la ejecucion de el comando ls, 
+lo cual permitió visualizar los archivos que se crearon para la carpeta **Juego-Mario-Bros**. 
+Ahora puedes ver las carpetas generadas por el entorno virtual (venv) y Python (pycache), además de los archivos de tu proyecto como game.py, appgame.py,
+Dockerfile y requirements.txt, indicando que el directorio ya contiene todos los elementos necesarios para tu juego y su configuración.
+
+<img width="779" height="426" alt="image" src="https://github.com/user-attachments/assets/f8c7dc5e-20e2-4855-812f-b74cc5a6a39d" />
+
+---
+#### Paso 2: Entorno virtual
+
+<img width="716" height="65" alt="image" src="https://github.com/user-attachments/assets/9804644d-ea4f-4eda-a96c-1f74657c5eec" />
+
+
