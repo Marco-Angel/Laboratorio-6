@@ -142,4 +142,34 @@ Dockerfile y requirements.txt, indicando que el directorio ya contiene todos los
 
 <img width="716" height="65" alt="image" src="https://github.com/user-attachments/assets/9804644d-ea4f-4eda-a96c-1f74657c5eec" />
 
+En la figura anterior se ve el proceso para preparar y usar un entorno virtual de Python. Primero
+ejecutar python -m venv venv, lo que creó un entorno virtual llamado venv. Luego se activo ese
+entorno con venv, lo cual se nota porque ahora aparece (venv) al inicio de la linea de comandos. Por
+último, ejecutaste pip install -r requirements.txt para instalar automáticamente todas las dependencias
+necesarias para tu proyecto según el archivo requirements.txt.
+
+---
+#### Paso 3: Prueba con streamlit
+<img width="489" height="26" alt="image" src="https://github.com/user-attachments/assets/4f713328-47d9-4335-952c-aa0494de7497" />
+En esta parte del proceso decidi primero hacerlo directamente con streamlit y rectificar que los codigos de los archivos estuvieran bien,
+también verificar que el programa corriera sin ningun problema. Ahora explicando de lo que se hizo en la imagen despuesde de aver descargado el pip se se instalo con el comando ("pip install streamlit pandas plotly") para que se pueda ejecutar el programa con ("streamlit run app_game.py") y poder visualizar y ejecutar el juego
+
+---
+
+#### Paso 4: Iniciarlo con docker
+<img width="641" height="355" alt="image" src="https://github.com/user-attachments/assets/84711324-6166-444c-b1c6-cf323924aba3" />
+<img width="800" height="682" alt="image" src="https://github.com/user-attachments/assets/f639914e-2508-4e6b-9232-5382370dd601" />
+<img width="664" height="330" alt="image" src="https://github.com/user-attachments/assets/e5cd977d-435b-45f4-b116-8c4e5d77c1b7" />
+
+
+En esta imagen se muestra cómo se construyo y se ejecuto la  aplicación dentro de Docker. Primero ejecute docker build -t juego-mario-bros .
+lo que creó una imagen de Docker usando el Dockerfile de tu proyecto; durante el proceso se copiaron los archivos, se instaló Python 3.11, 
+se agregó el código de tu app y se instalaron las dependencias del archivo requirements.txt. 
+Luego se corre el contenedor con docker run --name mario-game -p 8501:8501 juego-mario-bros, exponiendo el puerto 8501 para poder acceder
+a la aplicación Streamlit desde tu navegador. Finalmente, Docker dejó listo el enlace para abrir la app: http://0.0.0.0:8501.
+
+#### 
+<img width="800" height="723" alt="image" src="https://github.com/user-attachments/assets/d9f404f9-f6eb-4709-8ec4-2af5920e136d" />
+<img width="637" height="345" alt="image" src="https://github.com/user-attachments/assets/a09ff2b1-2648-4ad8-b39f-f37afc7a54ed" />
+<img width="1326" height="838" alt="image" src="https://github.com/user-attachments/assets/ff9c8eb8-ef13-4067-969e-041b78d4ee49" />
 
