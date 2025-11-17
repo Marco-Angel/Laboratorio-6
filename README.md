@@ -173,8 +173,14 @@ a la aplicación Streamlit desde tu navegador. Finalmente, Docker dejó listo el
 
 #### Paso 5: Jugar
 
+<img width="637" height="345" alt="image" src="https://github.com/user-attachments/assets/a09ff2b1-2648-4ad8-b39f-f37afc7a54ed" />
+
+En esta imagen se muestra la interfaz de tu juego corriendo dentro de la aplicación web creada con Streamlit. A la izquierda aparecen los controles y opciones del jugador, como los botones para moverse, saltar, detener el juego o reiniciarlo, además de algunos tips para jugar. A la derecha se encuentra la “Pantalla del Juego”, donde se visualizan los elementos principales: el personaje, las plataformas, las monedas y los indicadores de estado como la puntuación, las vidas y la cantidad de hilos activos. En conjunto, la imagen muestra que el juego ya está funcionando correctamente dentro de la interfaz web.
+
 <img width="800" height="723" alt="image" src="https://github.com/user-attachments/assets/d9f404f9-f6eb-4709-8ec4-2af5920e136d" />
 
-<img width="637" height="345" alt="image" src="https://github.com/user-attachments/assets/a09ff2b1-2648-4ad8-b39f-f37afc7a54ed" />
+En esta imagen se muestra el momento en que el jugador pierde la partida dentro del juego. En la parte superior izquierda aparecen los indicadores finales: una puntuación de 40, vidas en 0 y hilos activos en 0, lo que significa que el personaje ya no puede continuar. En el centro de la pantalla se despliega un gran mensaje rojo de “GAME OVER”, indicando claramente que el juego ha terminado. Al fondo se mantienen las plataformas, monedas y el personaje, mostrando el escenario justo en el instante en que ocurrió la derrota.
+
 <img width="1326" height="838" alt="image" src="https://github.com/user-attachments/assets/ff9c8eb8-ef13-4067-969e-041b78d4ee49" />
 
+En esta imagen se muestra la sección de implementación técnica del proyecto, donde se explica cómo funciona internamente el juego utilizando multihilos y mecanismos de sincronización. A la izquierda aparece el listado de hilos que maneja el sistema —como el hilo de física, de enemigos, colisiones y animación— junto con las secciones críticas protegidas por cerrojos (Locks) para evitar condiciones de carrera al modificar la puntuación y las vidas. A la derecha se ilustran los conceptos de Mutex (Lock) y Semáforos, con fragmentos de código que muestran cómo se aplican para controlar el acceso a recursos compartidos. Finalmente, en la parte inferior se presenta una tabla que muestra el estado actual de los hilos del juego y la función que cumple cada uno, evidenciando la arquitectura concurrente que hace posible el funcionamiento del juego.
