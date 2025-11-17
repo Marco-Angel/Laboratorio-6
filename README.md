@@ -110,4 +110,17 @@ codigo para evitar problemas de compatibilidad en versiones futuras.
 <img width="802" height="630" alt="image" src="https://github.com/user-attachments/assets/59403ebb-1ccb-41b6-aa78-ac9366f8bd05" />
 <img width="844" height="498" alt="image" src="https://github.com/user-attachments/assets/aa820cd1-0f1e-445d-8cfe-f7be38d74092" />
 
+---
 
+#### Con Docker
+La imagen muestra el proceso exitoso de construcci´on y ejecuci´on de una imagen Docker para el
+proyecto “proyecto-sentimientos”. Se observa c´omo Docker compila cada capa del Dockerfile, copia
+los archivos necesarios, instala las dependencias desde requirements.txt y finalmente genera la imagen
+sin errores. Luego, se ejecuta varias veces el comando docker run -p 8501:8501, indicando que se
+est´a levantando un servicio (probablemente una aplicaci´on Streamlit) en el puerto 8501. En general, la
+terminal refleja que el contenedor se construy´o correctamente y que la aplicaci´on est´a siendo desplegada
+de manera local a trav´es de Docker.
+
+<img width="600" height="601" alt="image" src="https://github.com/user-attachments/assets/109bf667-89da-45fc-835b-43cf2175dee6" />
+<img width="600" height="276" alt="image" src="https://github.com/user-attachments/assets/691a4f2d-066b-4a1c-8487-6ae14584947e" />
+<img width="832" height="309" alt="image" src="https://github.com/user-attachments/assets/d76832bf-6201-4dc6-b785-dff04f8fad9a" />
