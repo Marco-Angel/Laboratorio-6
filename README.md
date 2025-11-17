@@ -3,7 +3,7 @@
 ##  Primer punto
 ---
 
-###    PASO 1: Configuraci´on del Proyecto
+###  PASO 1: Configuraci´on del Proyecto
 Se crea una nueva carpeta llamada ”Proyecto-sentimientos”, para despues crear cuatro archivos como
 se muestra en la siguiente imagen.
 
@@ -129,7 +129,7 @@ de manera local a trav´es de Docker.
 
 ##  Segundo punto
 ---
-### Paso 1: Creacion de archivos
+#### Paso 1: Creacion de archivos
 Como primero se creo un nuevo folder llamado **Juego-Mario-Bros**  en la imagense muestra la ejecucion de el comando ls, 
 lo cual permitió visualizar los archivos que se crearon para la carpeta **Juego-Mario-Bros**. 
 Ahora puedes ver las carpetas generadas por el entorno virtual (venv) y Python (pycache), además de los archivos de tu proyecto como game.py, appgame.py,
@@ -151,6 +151,7 @@ necesarias para tu proyecto según el archivo requirements.txt.
 ---
 #### Paso 3: Prueba con streamlit
 <img width="489" height="26" alt="image" src="https://github.com/user-attachments/assets/4f713328-47d9-4335-952c-aa0494de7497" />
+
 En esta parte del proceso decidi primero hacerlo directamente con streamlit y rectificar que los codigos de los archivos estuvieran bien,
 también verificar que el programa corriera sin ningun problema. Ahora explicando de lo que se hizo en la imagen despuesde de aver descargado el pip se se instalo con el comando ("pip install streamlit pandas plotly") para que se pueda ejecutar el programa con ("streamlit run app_game.py") y poder visualizar y ejecutar el juego
 
@@ -162,7 +163,7 @@ también verificar que el programa corriera sin ningun problema. Ahora explicand
 <img width="664" height="330" alt="image" src="https://github.com/user-attachments/assets/e5cd977d-435b-45f4-b116-8c4e5d77c1b7" />
 
 
-En esta imagen se muestra cómo se construyo y se ejecuto la  aplicación dentro de Docker. Primero ejecute docker build -t juego-mario-bros .
+En estas imagenes se muestra cómo se construyo y se ejecuto la  aplicación dentro de Docker. Primero ejecute docker build -t juego-mario-bros .
 lo que creó una imagen de Docker usando el Dockerfile de tu proyecto; durante el proceso se copiaron los archivos, se instaló Python 3.11, 
 se agregó el código de tu app y se instalaron las dependencias del archivo requirements.txt. 
 Luego se corre el contenedor con docker run --name mario-game -p 8501:8501 juego-mario-bros, exponiendo el puerto 8501 para poder acceder
