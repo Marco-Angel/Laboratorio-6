@@ -94,18 +94,19 @@ accesible desde cualquier IP (–server.address=0.0.0.0).
 En esta parte de la actividad se crea un entorno virtual con el comando (python -m venv venv)
 y luego con el comando (venv) se activa el entorno virtual para asi poder instalar las dependencias.
 la imagen primera muestra que estás dentro de tu entorno virtual (venv) y ejecutaste la actualizacion de
-pip, que ya estaba en su ultima versi´on. Luego se instalo streamlit, pandas y plotly: las dos primeras
+pip, que ya estaba en su ultima versión. Luego se instalo streamlit, pandas y plotly: las dos primeras
 ya estaban instaladas en el entorno, por eso aparece “Requirement already satisfied”, mientras que
 plotly sí se descargó e instaló en ese momento. En resumen, todas las librerías necesarias quedaron
 correctamente instaladas y no hubo errores.
 <img width="916" height="277" alt="image" src="https://github.com/user-attachments/assets/2c35f4db-61c3-43fd-afbe-d50014575adb" />
 
- La segunda imagen muestra la ejecuci´on de una aplicaci´on de Streamlit desde la terminal, donde el sistema
-indica que el an´alisis se realiz´o con ´exito y en poco tiempo. Sin embargo, el mensaje tambi´en resalta
-repetidas advertencias sobre la futura eliminaci´on del par´ametro usecontainerwidth, recomendando
+ La segunda imagen muestra la ejecución de una aplicaci´on de Streamlit desde la terminal, donde el sistema
+indica que el análisis se realizó con éxito y en poco tiempo. Sin embargo, el mensaje tambien resalta
+repetidas advertencias sobre la futura eliminacion del par´ametro usecontainerwidth, recomendando
 reemplazarlo por width antes del 31 de diciembre de 2025. Aunque la app funciona correctamente
 y genera las URL de acceso local y en red, las advertencias indican que ser´a necesario actualizar el
-c´odigo para evitar problemas de compatibilidad en versiones futuras.
+codigo para evitar problemas de compatibilidad en versiones futuras.
+
 <img width="802" height="630" alt="image" src="https://github.com/user-attachments/assets/59403ebb-1ccb-41b6-aa78-ac9366f8bd05" />
 <img width="844" height="498" alt="image" src="https://github.com/user-attachments/assets/aa820cd1-0f1e-445d-8cfe-f7be38d74092" />
 
