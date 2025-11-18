@@ -186,3 +186,11 @@ En esta imagen se muestra el momento en que el jugador pierde la partida dentro 
 <img width="1326" height="838" alt="image" src="https://github.com/user-attachments/assets/ff9c8eb8-ef13-4067-969e-041b78d4ee49" />
 
 En esta imagen se muestra la sección de implementación técnica del proyecto, donde se explica cómo funciona internamente el juego utilizando multihilos y mecanismos de sincronización. A la izquierda aparece el listado de hilos que maneja el sistema —como el hilo de física, de enemigos, colisiones y animación— junto con las secciones críticas protegidas por cerrojos (Locks) para evitar condiciones de carrera al modificar la puntuación y las vidas. A la derecha se ilustran los conceptos de Mutex (Lock) y Semáforos, con fragmentos de código que muestran cómo se aplican para controlar el acceso a recursos compartidos. Finalmente, en la parte inferior se presenta una tabla que muestra el estado actual de los hilos del juego y la función que cumple cada uno, evidenciando la arquitectura concurrente que hace posible el funcionamiento del juego.
+
+---
+# Tercer punto
+
+---
+
+<img width="826" height="76" alt="image" src="https://github.com/user-attachments/assets/79eece8a-457d-4673-8f4b-b1bf22273024" />
+
