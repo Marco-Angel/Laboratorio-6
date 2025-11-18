@@ -177,9 +177,11 @@ a la aplicación Streamlit desde tu navegador. Finalmente, Docker dejó listo el
 
 En esta imagen se muestra la interfaz de tu juego corriendo dentro de la aplicación web creada con Streamlit. A la izquierda aparecen los controles y opciones del jugador, como los botones para moverse, saltar, detener el juego o reiniciarlo, además de algunos tips para jugar. A la derecha se encuentra la “Pantalla del Juego”, donde se visualizan los elementos principales: el personaje, las plataformas, las monedas y los indicadores de estado como la puntuación, las vidas y la cantidad de hilos activos. En conjunto, la imagen muestra que el juego ya está funcionando correctamente dentro de la interfaz web.
 
+
 <img width="800" height="723" alt="image" src="https://github.com/user-attachments/assets/d9f404f9-f6eb-4709-8ec4-2af5920e136d" />
 
 En esta imagen se muestra el momento en que el jugador pierde la partida dentro del juego. En la parte superior izquierda aparecen los indicadores finales: una puntuación de 40, vidas en 0 y hilos activos en 0, lo que significa que el personaje ya no puede continuar. En el centro de la pantalla se despliega un gran mensaje rojo de “GAME OVER”, indicando claramente que el juego ha terminado. Al fondo se mantienen las plataformas, monedas y el personaje, mostrando el escenario justo en el instante en que ocurrió la derrota.
+
 
 <img width="1326" height="838" alt="image" src="https://github.com/user-attachments/assets/ff9c8eb8-ef13-4067-969e-041b78d4ee49" />
 
