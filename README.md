@@ -206,9 +206,13 @@ Despues este comando buscó Python 3.11, descargó el instalador desde la fuente
 Esto confirma que tu sistema ahora reconoce Python 3.11 como una versión disponible y lista para usarse.
 
 ---
+### Paso 3: Entorno virtual
 
 <img width="953" height="73" alt="image" src="https://github.com/user-attachments/assets/53c0f837-2d0a-4985-88da-97c118ff893e" />
 
+En esta imagen se muestra el proceso para crear y activar un entorno virtual usando una versión específica de Python. Primero ejecute **py -3.11 -m venv venv_311**, lo que creó un entorno virtual llamado venv_311 utilizando Python 3.11. Luego lo activaste con **.\venv_311\Scripts\activate**, lo que se aprecia porque ahora el prompt muestra (venv_311). Finalmente, ejecute **python --version** para confirmar qué versión está usando el entorno, y el sistema respondió Python 3.11.9, indicando que el entorno está configurado correctamente.
+
+---
 
 <img width="783" height="911" alt="image" src="https://github.com/user-attachments/assets/abbe429f-36c0-4b0f-b869-9b1f28178e3f" />
 
