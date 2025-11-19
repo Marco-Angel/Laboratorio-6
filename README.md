@@ -194,10 +194,11 @@ En esta imagen se muestra la sección de implementación técnica del proyecto, 
 
 <img width="800" height="570" alt="image" src="https://github.com/user-attachments/assets/86ae4585-8a22-47a8-9503-625f45c41d06" />
 
+<img width="953" height="73" alt="image" src="https://github.com/user-attachments/assets/53c0f837-2d0a-4985-88da-97c118ff893e" />
 
-<img width="761" height="44" alt="image" src="https://github.com/user-attachments/assets/5f79c800-6cb6-41c4-9b03-ddda71e35508" />
 
-<img width="800" height="860" alt="image" src="https://github.com/user-attachments/assets/20633e9e-ed02-4216-b932-87c71cbcf334" />
+<img width="783" height="911" alt="image" src="https://github.com/user-attachments/assets/abbe429f-36c0-4b0f-b869-9b1f28178e3f" />
+
 
 
 
