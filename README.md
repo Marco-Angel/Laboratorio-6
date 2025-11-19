@@ -199,6 +199,7 @@ En esta imagen se muestra la sección de implementación técnica del proyecto, 
 
 <img width="783" height="911" alt="image" src="https://github.com/user-attachments/assets/abbe429f-36c0-4b0f-b869-9b1f28178e3f" />
 
+<img width="800" height="374" alt="image" src="https://github.com/user-attachments/assets/6013db17-37d2-4f29-922e-35210bd7ab21" />
 
 
 
