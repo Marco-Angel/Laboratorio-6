@@ -196,8 +196,16 @@ El tercer punto se concentra en la detecion de gestos con las manos, para ello s
 
 <img width="689" height="253" alt="image" src="https://github.com/user-attachments/assets/528acafc-e14b-4dd4-857f-3a1b15edc1ec" />
 
+---
+### Paso 2: Instalación depython 3.11 para el midiapipe
 
 <img width="800" height="570" alt="image" src="https://github.com/user-attachments/assets/86ae4585-8a22-47a8-9503-625f45c41d06" />
+
+En esta imagen se muestra el proceso de instalación y verificación de Python 3.11 en tu sistema usando winget, así como la comprobación de las versiones disponibles en tu máquina. Primero aparece el entorno virtual activado, pero después ejecutar: **winget install -e --id Python.Python.3.11 --scope machine**.
+Despues este comando buscó Python 3.11, descargó el instalador desde la fuente oficial y realizó la instalación a nivel de máquina. El sistema confirmó que el paquete se instaló correctamente. Luego ejecutaste: **py --list**, y el resultado muestra todas las versiones de Python instaladas, entre ellas
+Esto confirma que tu sistema ahora reconoce Python 3.11 como una versión disponible y lista para usarse.
+
+---
 
 <img width="953" height="73" alt="image" src="https://github.com/user-attachments/assets/53c0f837-2d0a-4985-88da-97c118ff893e" />
 
