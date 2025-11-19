@@ -221,7 +221,7 @@ En esta imagen se muestra el proceso de instalación de todas las dependencias d
 Al ejecutarlo dentro del entorno virtual (venv_311), Python empieza a descargar e instalar cada una de las librerías listadas en el archivo requirements.txt. En la consola aparecen mensajes indicando qué paquetes se están usando desde caché (los ya descargados previamente) y cuáles se están descargando en ese momento, junto con su tamaño, velocidad de descarga y progreso. Entre las dependencias se observan módulos como opencv, pandas, numpy, matplotlib, sounddevice, watchdog, rich, y muchos más. Todo esto confirma que el entorno está instalando correctamente todas las librerías necesarias para ejecutar tu proyecto.
 
 ---
-### Paso 5:
+### Paso 5: Detecion de gestos e implementación tecnica
 
 <img width="800" height="374" alt="image" src="https://github.com/user-attachments/assets/6013db17-37d2-4f29-922e-35210bd7ab21" />
 
