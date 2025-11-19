@@ -213,8 +213,9 @@ Esto confirma que tu sistema ahora reconoce Python 3.11 como una versión dispon
 En esta imagen se muestra el proceso para crear y activar un entorno virtual usando una versión específica de Python. Primero ejecute **py -3.11 -m venv venv_311**, lo que creó un entorno virtual llamado venv_311 utilizando Python 3.11. Luego lo activaste con **.\venv_311\Scripts\activate**, lo que se aprecia porque ahora el prompt muestra (venv_311). Finalmente, ejecute **python --version** para confirmar qué versión está usando el entorno, y el sistema respondió Python 3.11.9, indicando que el entorno está configurado correctamente.
 
 ---
+### Paso 4: Instalación de librerias
 
-<img width="783" height="911" alt="image" src="https://github.com/user-attachments/assets/abbe429f-36c0-4b0f-b869-9b1f28178e3f" />
+<img width="783" height="600" alt="image" src="https://github.com/user-attachments/assets/abbe429f-36c0-4b0f-b869-9b1f28178e3f" />
 
 <img width="800" height="374" alt="image" src="https://github.com/user-attachments/assets/6013db17-37d2-4f29-922e-35210bd7ab21" />
 
