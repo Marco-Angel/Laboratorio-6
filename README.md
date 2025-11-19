@@ -191,6 +191,8 @@ En esta imagen se muestra la sección de implementación técnica del proyecto, 
 # Tercer punto
 
 ---
+<img width="689" height="253" alt="image" src="https://github.com/user-attachments/assets/528acafc-e14b-4dd4-857f-3a1b15edc1ec" />
+
 
 <img width="800" height="570" alt="image" src="https://github.com/user-attachments/assets/86ae4585-8a22-47a8-9503-625f45c41d06" />
 
