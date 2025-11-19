@@ -217,6 +217,12 @@ En esta imagen se muestra el proceso para crear y activar un entorno virtual usa
 
 <img width="783" height="600" alt="image" src="https://github.com/user-attachments/assets/abbe429f-36c0-4b0f-b869-9b1f28178e3f" />
 
+En esta imagen se muestra el proceso de instalación de todas las dependencias del proyecto usando el comando:**pip install -r requirements.txt**.
+Al ejecutarlo dentro del entorno virtual (venv_311), Python empieza a descargar e instalar cada una de las librerías listadas en el archivo requirements.txt. En la consola aparecen mensajes indicando qué paquetes se están usando desde caché (los ya descargados previamente) y cuáles se están descargando en ese momento, junto con su tamaño, velocidad de descarga y progreso. Entre las dependencias se observan módulos como opencv, pandas, numpy, matplotlib, sounddevice, watchdog, rich, y muchos más. Todo esto confirma que el entorno está instalando correctamente todas las librerías necesarias para ejecutar tu proyecto.
+
+---
+### Paso 5:
+
 <img width="800" height="374" alt="image" src="https://github.com/user-attachments/assets/6013db17-37d2-4f29-922e-35210bd7ab21" />
 
 <img width="988" height="577" alt="image" src="https://github.com/user-attachments/assets/223bafe6-66bb-4a3b-8d57-1d894799e6f8" />
