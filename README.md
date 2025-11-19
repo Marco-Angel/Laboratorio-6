@@ -177,12 +177,12 @@ a la aplicación Streamlit desde tu navegador. Finalmente, Docker dejó listo el
 
 En esta imagen se muestra la interfaz de tu juego corriendo dentro de la aplicación web creada con Streamlit. A la izquierda aparecen los controles y opciones del jugador, como los botones para moverse, saltar, detener el juego o reiniciarlo, además de algunos tips para jugar. A la derecha se encuentra la “Pantalla del Juego”, donde se visualizan los elementos principales: el personaje, las plataformas, las monedas y los indicadores de estado como la puntuación, las vidas y la cantidad de hilos activos. En conjunto, la imagen muestra que el juego ya está funcionando correctamente dentro de la interfaz web.
 
-
+---
 <img width="800" height="723" alt="image" src="https://github.com/user-attachments/assets/d9f404f9-f6eb-4709-8ec4-2af5920e136d" />
 
 En esta imagen se muestra el momento en que el jugador pierde la partida dentro del juego. En la parte superior izquierda aparecen los indicadores finales: una puntuación de 40, vidas en 0 y hilos activos en 0, lo que significa que el personaje ya no puede continuar. En el centro de la pantalla se despliega un gran mensaje rojo de “GAME OVER”, indicando claramente que el juego ha terminado. Al fondo se mantienen las plataformas, monedas y el personaje, mostrando el escenario justo en el instante en que ocurrió la derrota.
 
-
+---
 <img width="1326" height="838" alt="image" src="https://github.com/user-attachments/assets/ff9c8eb8-ef13-4067-969e-041b78d4ee49" />
 
 En esta imagen se muestra la sección de implementación técnica del proyecto, donde se explica cómo funciona internamente el juego utilizando multihilos y mecanismos de sincronización. A la izquierda aparece el listado de hilos que maneja el sistema —como el hilo de física, de enemigos, colisiones y animación— junto con las secciones críticas protegidas por cerrojos (Locks) para evitar condiciones de carrera al modificar la puntuación y las vidas. A la derecha se ilustran los conceptos de Mutex (Lock) y Semáforos, con fragmentos de código que muestran cómo se aplican para controlar el acceso a recursos compartidos. Finalmente, en la parte inferior se presenta una tabla que muestra el estado actual de los hilos del juego y la función que cumple cada uno, evidenciando la arquitectura concurrente que hace posible el funcionamiento del juego.
@@ -225,12 +225,27 @@ Al ejecutarlo dentro del entorno virtual (venv_311), Python empieza a descargar 
 
 <img width="800" height="374" alt="image" src="https://github.com/user-attachments/assets/6013db17-37d2-4f29-922e-35210bd7ab21" />
 
+---
+
 <img width="988" height="577" alt="image" src="https://github.com/user-attachments/assets/223bafe6-66bb-4a3b-8d57-1d894799e6f8" />
+
+En la imagen se ve la vista de la cámara en vivo con el detector de manos superpuesto (puntos y conexiones de los landmarks), y a la derecha el panel “Gestos Detectados” que indica qué gesto reconoce para cada mano y su confianza. En este caso el sistema identifica la mano izquierda como Apuntando (confianza ~90%) —se muestra también el texto verde arriba a la izquierda— y la mano derecha aparece como Palma Abierta con mayor confianza pero en gris porque no es la primaria en ese instante. En resumen: la aplicación captura la imagen, extrae los puntos clave de la mano, clasifica el gesto y muestra el resultado y la barra de confianza en la interfaz.
+
+---
+
 
 <img width="804" height="598" alt="image" src="https://github.com/user-attachments/assets/a3a94e01-5baf-4285-9565-aa22c7d24d41" />
 
+La imagen muestra la detección en tiempo real de una mano utilizando un modelo de reconocimiento de gestos, donde se visualizan los puntos clave de los dedos y sus uniones coloreadas, indicando que el sistema ha identificado correctamente el gesto de “Palma Abierta” en la mano izquierda. El algoritmo traza la estructura ósea de la mano con líneas y nodos de colores para cada dedo, demostrando un seguimiento preciso de la pose mientras el usuario extiende la mano hacia la cámara.
+
+---
+
 <img width="990" height="606" alt="image" src="https://github.com/user-attachments/assets/c3ff0970-3395-4063-a715-a62563cbb47d" />
 
+La imagen muestra un panel de análisis donde se visualizan los gestos detectados por el sistema mediante dos gráficos: un histograma que compara la cantidad total de cada gesto reconocido y un diagrama circular que representa su distribución porcentual, destacando que "Palma Abierta" es el gesto más frecuente. Debajo se observa una tabla con el estado de los hilos del programa, donde cada uno aparece activo junto con la función que ejecuta, lo que indica que el sistema de captura, procesamiento y cálculo de FPS está funcionando correctamente.
+
+---
 <img width="1010" height="569" alt="image" src="https://github.com/user-attachments/assets/fddcb383-5d90-443e-b260-592c5ea73ee4" />
 
+La imagen muestra un resumen técnico del sistema de reconocimiento de gestos, donde se explica que se utilizan varios hilos (para capturar frames, procesarlos, calcular FPS y actualizar estadísticas) y que ciertas partes del programa están protegidas con locks para evitar accesos simultáneos. También se destaca el uso de un mutex para actualizar de forma segura los gestos detectados y de un semáforo que garantiza que solo un hilo pueda acceder a la cámara a la vez, asegurando un funcionamiento estable y sin conflictos entre los hilos.
 
