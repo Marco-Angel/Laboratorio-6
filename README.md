@@ -192,7 +192,7 @@ En esta imagen se muestra la sección de implementación técnica del proyecto, 
 
 ---
 ### Paso 1: Carpeta y archivos
-El tercer punto se concentra en la detecion de gestos con las manos, para ello se creo una carpeta llamada **Proycto-Gestos** y dentro de ella se crean los siguientes archivos, donde en cada uno se le debe hacer la respectiva codificación para construir el objetivo de este punto y poder ejecutarlo en terminal para llevarlo a cabo.
+El tercer punto se concentra en la detecion de gestos con las manos, para ello se creo una carpeta llamada **Proycto-Gestos** y dentro de ella se crean los siguientes archivos que se evidencian en la siguiente imagen, donde en cada uno se le debe hacer la respectiva codificación para construir el objetivo de este punto para asi poder ejecutarlo en terminal y llevarlo a cabo.
 
 <img width="689" height="253" alt="image" src="https://github.com/user-attachments/assets/528acafc-e14b-4dd4-857f-3a1b15edc1ec" />
 
