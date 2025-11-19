@@ -188,9 +188,12 @@ En esta imagen se muestra el momento en que el jugador pierde la partida dentro 
 En esta imagen se muestra la sección de implementación técnica del proyecto, donde se explica cómo funciona internamente el juego utilizando multihilos y mecanismos de sincronización. A la izquierda aparece el listado de hilos que maneja el sistema —como el hilo de física, de enemigos, colisiones y animación— junto con las secciones críticas protegidas por cerrojos (Locks) para evitar condiciones de carrera al modificar la puntuación y las vidas. A la derecha se ilustran los conceptos de Mutex (Lock) y Semáforos, con fragmentos de código que muestran cómo se aplican para controlar el acceso a recursos compartidos. Finalmente, en la parte inferior se presenta una tabla que muestra el estado actual de los hilos del juego y la función que cumple cada uno, evidenciando la arquitectura concurrente que hace posible el funcionamiento del juego.
 
 ---
-# Tercer punto
+## Tercer punto
 
 ---
+### Paso 1: Carpeta y archivos
+El tercer punto se concentra en la detecion de gestos con las manos, para ello se creo una carpeta llamada **Proycto-Gestos** y dentro de ella se crean los siguientes archivos, donde en cada uno se le debe hacer la respectiva codificación para construir el objetivo de este punto y poder ejecutarlo en terminal para llevarlo a cabo.
+
 <img width="689" height="253" alt="image" src="https://github.com/user-attachments/assets/528acafc-e14b-4dd4-857f-3a1b15edc1ec" />
 
 
