@@ -1,4 +1,5 @@
 # Laboratorio-6
+Marco Antonio Gómez Angel - Juan Pablo Pedraza Contreras
 ---
 ##  Primer punto
 ---
